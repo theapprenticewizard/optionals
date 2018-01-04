@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6bf3eb95-c14e-4d22-a54e-5ee7a550854f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/optionals.iml" afterPath="$PROJECT_DIR$/optionals.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/OptionalTest.java" afterPath="$PROJECT_DIR$/src/test/java/OptionalTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/OptionalTest.class" afterPath="$PROJECT_DIR$/target/test-classes/OptionalTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="507">
@@ -29,13 +26,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OptionalTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OptionalTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/OptionalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="453">
+              <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4021#4022#0" expanded="true" />
+                <element signature="e#4065#4066#0" expanded="true" />
+                <element signature="e#4100#4101#0" expanded="true" />
+                <element signature="e#4137#4138#0" expanded="true" />
+                <element signature="e#4184#4185#0" expanded="true" />
+                <element signature="e#4229#4230#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OptionalTest.testEmptyOptionalCreation">
+  <component name="RunManager" selected="JUnit.OptionalTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -177,14 +180,34 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="OptionalTest.testCreateOptionalThrowsNullPointerExceptionWhenGetCalledOnEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OptionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="optionals" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OptionalTest" />
-      <option name="METHOD_NAME" value="testCreateOptionalThrowsNullPointerExceptionWhenGetCalledOnEmpty" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="OptionalTest.testOrElseGetWithMethodInvocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="optionals" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OptionalTest" />
+      <option name="METHOD_NAME" value="testOrElseGetWithMethodInvocation" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -197,14 +220,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="OptionalTest.testCreateOptionalWithNullable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OptionalTest.testOrElseThrowWillThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="optionals" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OptionalTest" />
-      <option name="METHOD_NAME" value="testCreateOptionalWithNullable" />
+      <option name="METHOD_NAME" value="testOrElseThrowWillThrowException" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -217,14 +240,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="OptionalTest.testCreateOptionalWithOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OptionalTest.testOrElseWithSideEffect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="optionals" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OptionalTest" />
-      <option name="METHOD_NAME" value="testCreateOptionalWithOf" />
+      <option name="METHOD_NAME" value="testOrElseWithSideEffect" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -237,34 +260,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="OptionalTest.testCreateOptionalWithOfThrowsExceptionWhenNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OptionalTest.testReturnWithFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="optionals" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OptionalTest" />
-      <option name="METHOD_NAME" value="testCreateOptionalWithOfThrowsExceptionWhenNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="OptionalTest.testEmptyOptionalCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="optionals" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OptionalTest" />
-      <option name="METHOD_NAME" value="testEmptyOptionalCreation" />
+      <option name="METHOD_NAME" value="testReturnWithFilter" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -338,19 +341,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.OptionalTest.testCreateOptionalWithOf" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.OptionalTest.testCreateOptionalThrowsNullPointerExceptionWhenGetCalledOnEmpty" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.OptionalTest.testCreateOptionalWithOfThrowsExceptionWhenNull" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.OptionalTest.testCreateOptionalWithNullable" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.OptionalTest.testEmptyOptionalCreation" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.OptionalTest.testOrElseWithSideEffect" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.OptionalTest.testOrElseGetWithMethodInvocation" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.OptionalTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.OptionalTest.testOrElseThrowWillThrowException" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.OptionalTest.testReturnWithFilter" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.OptionalTest.testEmptyOptionalCreation" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.OptionalTest.testCreateOptionalWithNullable" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.OptionalTest.testCreateOptionalWithOfThrowsExceptionWhenNull" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.OptionalTest.testCreateOptionalThrowsNullPointerExceptionWhenGetCalledOnEmpty" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.OptionalTest.testCreateOptionalWithOf" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.OptionalTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OptionalTest.testReturnWithFilter" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.OptionalTest.testOrElseThrowWillThrowException" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.OptionalTest.testOrElseGetWithMethodInvocation" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.OptionalTest.testOrElseWithSideEffect" />
       </list>
     </recent_temporary>
   </component>
@@ -372,44 +375,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515029446608</updated>
-      <workItem from="1515029454121" duration="3334000" />
+      <workItem from="1515029454121" duration="5794000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OptionalTest_testCreateOptionalThrowsNullPointerExceptionWhenGetCalledOnEmpty - 2018.01.03 at 21h 00m 06s.xml">
-      <configuration name="OptionalTest.testCreateOptionalThrowsNullPointerExceptionWhenGetCalledOnEmpty" configurationId="JUnit" />
+    <history-entry file="OptionalTest - 2018.01.03 at 21h 54m 02s.xml">
+      <configuration name="OptionalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OptionalTest_testCreateOptionalThrowsNullPointerExceptionWhenGetCalledOnEmpty - 2018.01.03 at 21h 00m 29s.xml">
-      <configuration name="OptionalTest.testCreateOptionalThrowsNullPointerExceptionWhenGetCalledOnEmpty" configurationId="JUnit" />
+    <history-entry file="OptionalTest - 2018.01.03 at 22h 07m 35s.xml">
+      <configuration name="OptionalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OptionalTest_testCreateOptionalThrowsNullPointerExceptionWhenGetCalledOnEmpty - 2018.01.03 at 21h 03m 54s.xml">
-      <configuration name="OptionalTest.testCreateOptionalThrowsNullPointerExceptionWhenGetCalledOnEmpty" configurationId="JUnit" />
+    <history-entry file="OptionalTest_testNotNeedingToCastAString - 2018.01.03 at 21h 42m 24s.xml">
+      <configuration name="OptionalTest.testNotNeedingToCastAString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OptionalTest_testCreateOptionalThrowsNullPointerExceptionWhenGetCalledOnEmpty - 2018.01.03 at 21h 04m 11s.xml">
-      <configuration name="OptionalTest.testCreateOptionalThrowsNullPointerExceptionWhenGetCalledOnEmpty" configurationId="JUnit" />
+    <history-entry file="OptionalTest_testOrElse - 2018.01.03 at 21h 40m 21s.xml">
+      <configuration name="OptionalTest.testOrElse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OptionalTest_testCreateOptionalWithNullable - 2018.01.03 at 21h 22m 18s.xml">
-      <configuration name="OptionalTest.testCreateOptionalWithNullable" configurationId="JUnit" />
+    <history-entry file="OptionalTest_testOrElseGet - 2018.01.03 at 21h 51m 06s.xml">
+      <configuration name="OptionalTest.testOrElseGet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OptionalTest_testCreateOptionalWithNullable - 2018.01.03 at 21h 24m 09s.xml">
-      <configuration name="OptionalTest.testCreateOptionalWithNullable" configurationId="JUnit" />
+    <history-entry file="OptionalTest_testOrElseGet - 2018.01.03 at 21h 51m 50s.xml">
+      <configuration name="OptionalTest.testOrElseGet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OptionalTest_testCreateOptionalWithOf - 2018.01.03 at 20h 54m 53s.xml">
-      <configuration name="OptionalTest.testCreateOptionalWithOf" configurationId="JUnit" />
+    <history-entry file="OptionalTest_testOrElseGetWithMethodInvocation - 2018.01.03 at 21h 53m 54s.xml">
+      <configuration name="OptionalTest.testOrElseGetWithMethodInvocation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OptionalTest_testCreateOptionalWithOfThrowsExceptionWhenNull - 2018.01.03 at 21h 20m 08s.xml">
-      <configuration name="OptionalTest.testCreateOptionalWithOfThrowsExceptionWhenNull" configurationId="JUnit" />
+    <history-entry file="OptionalTest_testOrElseThrowWillThrowException - 2018.01.03 at 21h 59m 27s.xml">
+      <configuration name="OptionalTest.testOrElseThrowWillThrowException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OptionalTest_testCreateOptionalWithOfThrowsExceptionWhenNull - 2018.01.03 at 21h 21m 00s.xml">
-      <configuration name="OptionalTest.testCreateOptionalWithOfThrowsExceptionWhenNull" configurationId="JUnit" />
+    <history-entry file="OptionalTest_testOrElseWithSideEffect - 2018.01.03 at 21h 52m 34s.xml">
+      <configuration name="OptionalTest.testOrElseWithSideEffect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OptionalTest_testEmptyOptionalCreation - 2018.01.03 at 21h 26m 16s.xml">
-      <configuration name="OptionalTest.testEmptyOptionalCreation" configurationId="JUnit" />
+    <history-entry file="OptionalTest_testReturnWithFilter - 2018.01.03 at 22h 07m 29s.xml">
+      <configuration name="OptionalTest.testReturnWithFilter" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3334000" />
+    <option name="totallyTimeSpent" value="5794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="7" />
@@ -452,7 +455,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -465,21 +468,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/OptionalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OptionalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4065#4066#0" expanded="true" />
+            <element signature="e#4100#4101#0" expanded="true" />
+            <element signature="e#4137#4138#0" expanded="true" />
+            <element signature="e#4184#4185#0" expanded="true" />
+            <element signature="e#4229#4230#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
